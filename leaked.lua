@@ -15233,25 +15233,7 @@ end
 
 coroutine.wrap(ULBUS_fake_script)()
 
-local StarterGui = game:GetService("StarterGui")
 
-local function sendNotification(title, text)
-	local notification = {
-		Title = title,
-		Text = text,
-		Duration = 10000000,
-		Button1 = "Close", -- Button text
-		Callback = function(action)
-			if action == "Button1" then
-				print("Close button pressed")
-			end
-		end
-	}
-
-	StarterGui:SetCore("SendNotification", notification)
-end
-
-sendNotification("Hunter Clan Notes!!", "I Degraded the version of this GUI to maintain each functions")
 
 -- NA PC Version script:
 
