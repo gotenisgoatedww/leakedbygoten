@@ -553,7 +553,7 @@ TextLabel.ZIndex = 2
 
 TextLabel.Font = Enum.Font.Fantasy
 
-TextLabel.Text = "     HunterHub v4.3.1     "
+TextLabel.Text = "     Ninja Hub V5.0.0    "
 
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 
